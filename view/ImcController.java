@@ -20,7 +20,7 @@ public class ImcController {
 		
 		String text;
 		double peso = Double.parseDouble(txPeso.getText());
-		double altura = Double.parseDouble(txPeso.getText());
+		double altura = Double.parseDouble(txAltura.getText());
 		double imc = peso / ( altura * altura );
 		
 		if (rdMasc.isSelected()) 
